@@ -1,5 +1,5 @@
 baseurl: "KompAKI-ep3n4.github.io/kompaki-ep3n4.github.io"
-color-scheme: "#060e3e" # the scheme can be any HEX code like "#00aa55"
+color-scheme: "#060e3e"
 
 sass:
   sass_dir: /assets/css/_sass
@@ -18,7 +18,6 @@ information: >
   We connect researchers and practitioners to present original research and provide an overview of established methods. To the benefit of all, we invite both regional and international speakers to join us. To learn more about the project, please visit [kompaki.de](https://kompaki.de).
 
 
-  The presentations plus discussions are typically 20-60 minutes long and are recorded. Below, you will find an overview of the talks and links to recordings.
+  The presentations plus discussions are typically 20-60 minutes long and are recorded. Below, you will find an overview of the talks and links to recordings, where available.
 
-# "[Martin Trapp](https://trappmartin.github.io) and [Arno Solin](http://arno.solin.fi)"
 organizers: "Seminar organizers"

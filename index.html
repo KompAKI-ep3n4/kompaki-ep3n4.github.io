@@ -17,10 +17,6 @@ layout: default
   </div>
 </div>
 
-<!--
-<img src="{{ site.baseurl }}/assets/Logo_ELLIS.png" class="img-responsive mw-80 float-right" />
--->
-
 <div class="container-md">
 
 <div class="row">
@@ -45,25 +41,38 @@ layout: default
 {% for talk in site.data.talks %}
 
   <article class="post-preview" datetime="{{ talk.date | date: "%s" }}">
-    <h2 class="post-title">{{ talk.title }}</h2>
-    <h3 class="post-subtitle"><a href="{{talk.url}}" target="_blank">{{ talk.presenter }}</a> ({{ talk.affiliation }})</h3>
-    <p class="post-meta">{{ talk.date }}</p>
-    <div class="post-entry">
+    <h3 class="post-title">
+      {{ talk.title }}
+    </h3>
+    <h4 class="post-subtitle"><a href="{{talk.url}}" target="_blank" class="link-primary">{{ talk.presenter }}</a> ({{ talk.affiliation }})</h4>
+    <p>    
+      {% if talk.video_url != "" %}
+        <a href="{{ talk.video_url }}" class="btn btn-sm btn-primary active align-middle"><i class="fa fa-play" aria-hidden="true"></i> Watch recording</a>
+      {% else %}
+      <span class="align-middle">
+        No recording available (yet).
+      </span>
+      {% endif %}
+      <span class="post-meta align-middle">
+        Presented on {{ talk.date }}.
+      </span>
+    </p>
+    <div class="post-entry text-justified">
       <p><strong>Abstract:</strong>
       {{ talk.abstract | markdownify | remove: '<p>' | remove: '</p>' }}</p>
     </div>
-    <div class="row post-bio">
+    <div class="row align-items-center post-bio">
       <div class="col-2 text-center">
-      {% if talk.photo %}
-        <img src="{{ site.baseurl }}/assets/speakers/{{ talk.photo }}.jpg" class="img-circle avatar img-fluid" alt="">
-      {% else %}
-        <div class="avatar" style="background: #ddd;">
-          <i class="fa fa-user" style="font-size: 100px; color: #eee; margin-top:20px;"></i>
-        </div>
-      {% endif %}
+        {% if talk.photo != "" %}
+          <img src="{{ site.baseurl }}/assets/speakers/{{ talk.photo }}" class="img-circle avatar img-fluid" alt="Image of {{ talk.presenter }}">
+        {% else %}
+          <div class="avatar" style="background: #ddd;">
+            <i class="fa fa-user" style="font-size: 100px; color: #eee;"></i>
+          </div>
+        {% endif %}
       </div>
       <div class="col-1"></div>
-      <div class="col-9 text-muted">
+      <div class="col-9 text-muted text-justified">
         <p><strong>About the presenter:</strong>
         {{ talk.biography | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       </div>

@@ -1,13 +1,11 @@
-# TODO: url, bio, photo
-
 - date: "05.03.2021"
   title: "Restore: Neural Data Completion for Tabular Data"
   presenter: "Benjamin Hilprecht"
   url: https://www.linkedin.com/in/benjamin-hilprecht-421b8817a
   affiliation: "Technische Universität Darmstadt"
   abstract: "Classical approaches for OLAP assume that the data of all tables is complete. However, in case of incomplete tables with missing tuples, classical approaches fail since the result of a SQL aggregate query might significantly differ from the results computed on the full dataset. Today, the only way to deal with missing data is to manually complete the dataset which causes not only high efforts but also requires good statistical skills to determine when a dataset is actually complete. In this talk, we present an automated approach for relational data completion called ReStore using a new class of (neural) schema-structured completion models that are able to synthesize data which resembles the missing tuples. As we show in our evaluation, this efficiently helps to reduce the relative error of aggregate queries by up to 390% on real-world data compared to using the incomplete data directly for query answering."
-  photo: "will-tebbutt"
-  biography: ""
+  photo: ""
+  biography: "Benjamin Hilprecht is very interested in bringing together machine learning and database systems. Having completed his Doctor of Science in Computer Science from Technische Universität Darmstadt, Hilprecht has worked extensively in data management, leading to his recognition as the runner-up for the Jim Gray Dissertation Award by Sigmod in 2023."
   video_url: ""
 
 - date: "07.05.2021"
@@ -17,7 +15,7 @@
   affiliation: "Hochschule Darmstadt"
   abstract: "Automated machine learning (AutoML) supports ML engineers and data scientists by automating tasks like model selection and hyperparameter optimization. A number of AutoML solutions have been developed, open-source and commercial. We propose a concept called OMA-ML (Ontology-based Meta AutoML) that combines the strengths of existing AutoML solutions by integrating them (meta AutoML). OMA-ML is based on a ML ontology that guides the meta AutoML process. It supports multiple user groups, with and without programming skills. By combining the strengths of AutoML solutions, it supports any number of ML tasks and ML libraries."
   photo: ""
-  biography: ""
+  biography: "Alexander Zender holds a Master's degree in Computer Science. Since 2021, he has pursued a doctorate at the Darmstadt University of Applied Sciences (h_da). His main research interests are bringing together AutoML and Ontologies into unified systems. Having published on this topic, he also investigates applied topics, where user interactions and natural language processing play a significant role."
   video_url: ""
 
 - date: "11.06.2021"
@@ -27,7 +25,7 @@
   affiliation: "Technische Universität Darmstadt"
   abstract: "While probabilistic circuits have been extensively explored for tabular data, less attention has been paid to time series. In such scenario, the goal is to estimate joint densities among the entire time series and, in turn, determining, for instance, conditional independence relations between them. To this end, we propose the first probabilistic circuits (PCs) approach for modeling the joint distribution of multivariate time series, called Whittle sum-product networks (WSPNs). WSPNs leverage the Whittle approximation, casting the likelihood in the frequency domain, and place a complex-valued sum-product network, the most prominent PC, over the frequencies. The conditional independence relations among the time series can then be determined efficiently in the spectral domain. Moreover, WSPNs can naturally be placed into the deep neural learning stack for time series, resulting in Whittle Networks, opening the likelihood toolbox for training deep neural models and inspecting their behaviour. Our experiments show that Whittle Networks can indeed capture complex dependencies between time series and provide a useful measure of uncertainty for neural networks."
   photo: ""
-  biography: ""
+  biography: "Fabrizio Ventola is a Ph.D. student in Machine Learning at the Computer Science Department of TU Darmstadt University, Germany, as part of the KompAKI project. Previously, he has been part of AIPHES (TU Darmstadt, HITS, Heidelberg University), a Research Training Group mainly focused on Natural Language Processing on large-scale text sources. His research focuses on deep models for tractable probabilistic inference. They can help humans in modeling complex phenomena by dealing with uncertainty. Fabrizio Ventola aims to enable these models to efficiently provide insights on extensive (unstructured) data collections, perform accurate and trustworthy predictions, and generate new valuable data."
   video_url: ""
 
 - date: "02.07.2021"
@@ -37,7 +35,7 @@
   affiliation: "Software AG"
   abstract: "Nowadays, machine learning (ML) plays a vital role in many aspects of our daily life. In essence, building well-performing ML applications requires the provision of high-quality data throughout the entire life-cycle of such applications.  Nevertheless, most of the real-world structured data suffer from different types of discrepancies, such as missing values, outliers, duplicates, patter violation, and inconsistencies. Such discrepancies typically emerge while collecting, transferring, storing, and/or integrating the data. To deal with these discrepancies, numerous data cleaning methods have been introduced from the data management community and the ML community.  However, the majority of such methods broadly overlook the requirements imposed by downstream ML models. As a result, the potential of utilizing these data cleaning methods in ML pipelines is predominantly unrevealed. In this work, we introduce a comprehensive benchmark to thoroughly investigate the impact of data cleaning methods on various ML models. Through the benchmark, we provide answers to important research questions, e.g., where and  whether data cleaning is a necessary step in the ML pipeline. To this end, the benchmark examines several simple and advanced error detection and repair methods. To evaluate these methods, we utilize publicly-available datasets covering different domains together with a wide collection of ML models."
   photo: ""
-  biography: ""
+  biography: "Mohamed Abdelaal is a Research Scientist at Software AG in Stuttgart, specializing in the intersection of IoT and machine learning. He holds a Ph.D. in Computer Science from Carl von Ossietzky Universität Oldenburg. His academic journey has been distinguished with multiple awards, including the Mobinil Excellence Award and recognitions from Port Said and Suez Canal Universities. Beyond his extensive research experience, Mohamed has a notable record of publications in energy efficiency and sensor networks."
   video_url: ""
 
 - date: "05.11.2021"
@@ -45,9 +43,9 @@
   presenter: "Peter Haase"
   url: https://www.linkedin.com/in/phaase/
   affiliation: "metaphacts"
-  abstract: ""
+  abstract: "Especially in the diverse and fast-paced field of Artificial Intelligence it is imperative to have a clear picture of relevant competencies and how they are distributed within or over organisations. For this purpose, we have developed a generic competency ontology that can be used to describe competencies of people and organisational structures in the Artificial Intelligence domain. The ontology is embedded in an application to create, manage, and utilize a Competency Knowledge Graph. In our presentation we show concrete application scenarios, advantages, and challenges."
   photo: ""
-  biography: ""
+  biography: "Peter Haase studied Computer Science in Rostock, and in 2006, he completed his Doctorate at the Karlsruhe Institute for Technology (KIT). Having worked as a software engineer and later as a researcher at IBM and fluid Operations, he founded metaphacts in 2014. As the Chief Scientific Officer, his research focuses on managing and using Knowledge Graphs."
   video_url: ""
 
 - date: "03.12.2021"
@@ -57,7 +55,7 @@
   affiliation: "Technische Universität Darmstadt & Duale Hochschule Baden-Württemberg Mosbach"
   abstract: "An important task for enabling the efficient exploration of available data in a data lake is to annotate semantic type information to the available data sources. In order to reduce the manual overhead of annotation, learned approaches for automatic metadata extraction on structured data sources have been proposed recently. While initial results of these learned approaches seem promising, it is still not clear how well these approaches can generalize to new unseen data in real-world data lakes. In this tallk, we aim to tackle this question and as a first contribution show the result of a study when applying Sato — a recent approach based on deep learning — to a real-world data set. In our study we show that Sato without re-training is only able to extract semantic data types for about 10% of the columns of the real-world data set. These results show the general limitation of deep learning approaches which often provide near-perfect performance on available training and testing data but fail in real settings since training data and real data often strongly vary. Hence, as a second contribution we propose a new direction of using weak supervision and present results of an initial prototype we built to generate labeled training data with low manual efforts to improve the performance of learned semantic type extraction approaches on new unseen data sets."
   photo: ""
-  biography: ""
+  biography: "Sven Langenecker joined the Data Management Lab in May 2020. His primary research focuses on metadata management for data lakes and the associated automatic extraction of metadata information. He holds a Master's degree in Computer Science and a Bachelor's degree in Mechatronics, both from DHBW and in cooperation with Läpple AG."
   video_url: ""
 
 - date: "07.01.2022"
@@ -67,7 +65,7 @@
   affiliation: "Technische Universität Darmstadt"
   abstract: "AutoML is one of the hottest research-branches in the AI-community. Since ML is being applied on problems across many domains from economy to research, the job of 'Data Scientists' has evolved in the last years. Data Scientists are people who gather data, understand business/research objectives and try to extract new knowledge from data, often using ML-techniques. However, Data Scientists are often a bottleneck on the way of knowledge generation because there is still much manual work included in Data Science-tasks. AutoML tackles this problem by automating the Data Science-process with the goal to remove the hurdles from using ML. There are already systems automating parts of the Data Science-process, however more research is needed in order to end up with a system capable of fully automating the Data Science-cycle from data extraction to model evaluation."
   photo: ""
-  biography: ""
+  biography: "Jonas Seng received a Master's degree in Computer science from TU Darmstadt in 2019. As of 2021, he is a doctoral researcher at the Artificial Intelligence and Machine Learning Lab (AIML) at TU Darmstadt. His research interests center on AutoML, which aims to automate building Machine Learning (ML) models and pipelines. Currently, his focus is Neural Architecture Search (NAS), Hyperparamter-optimization, and connecting AutoML with Federated Learning (FL)."
   video_url: ""
 
 - date: "04.03.2022"
@@ -77,14 +75,14 @@
   affiliation: "Technische Universität Darmstadt, Psychologie der Informationsverarbeitung"
   abstract: "Combining the outputs of multiple classifiers or experts into a single probabilistic classification is a fundamental task in machine learning with broad applications from classifier fusion to expert opinion pooling. Here we present a hierarchical Bayesian model of probabilistic classifier fusion based on a new correlated Dirichlet distribution. This distribution explicitly models positive correlations between marginally Dirichlet-distributed random vectors thereby allowing explicit modeling of correlations between base classifiers or experts. The proposed model naturally accommodates the classic Independent Opinion Pool and other independent fusion algorithms as special cases. It is evaluated by uncertainty reduction and correctness of fusion on synthetic and real-world data sets. We show that a change in performance of the fused classifier due to uncertainty reduction can be Bayes optimal even for highly correlated base classifiers."
   photo: ""
-  biography: ""
+  biography: "Susanne Trick joined the lab as a PhD student in January 2019. She is part of the IKIDA research group investigating interactive AI algorithms and human-robot interaction. Besides the IKIDA project, from 2019 to 2021, she was also working on the Kobo34 project, which aims to contribute to maintaining the independence of elderly people with a humanoid robot that supports everyday life activities. Susanne Trick’s research focuses on understanding and predicting human behavior, particularly in the interaction between humans and robots. Her main interest is integrating data from multiple modalities (e.g., gaze, gestures, speech). Consequently, she also works on probabilistic modeling of optimal combinations of multimodal data, particularly considering their uncertainty and correlation."
   video_url: ""
 
 - date: "03.06.2022"
   title: "Towards “Large Table Models” for enterprise data management"
   presenter: "Madelon Hulsebos"
   url: https://madelonhulsebos.github.io
-  affiliation: "INDE Lab of the University of Amsterdam & Sigma Computing)"
+  affiliation: "INDE Lab of the University of Amsterdam & Sigma Computing"
   abstract: "We developed models that “understand” images, code, and natural language, and put them to use for driving cars, correcting code, and explaining jokes. However, we have long ignored the relational data that dominates the enterprise data landscape. The top-3 database systems, for example, are all relational database systems, and the dominant file formats (37%) indexed by Google Dataset Search are all tabular. To make the “modern data stack” intelligent towards relational data, we need to shift our attention from Large Language Models to Large Table Models. In this talk, I will discuss the progress in this direction, and present [Sherlock](https://sherlock.media.mit.edu); a model for surfacing the semantics of table columns, [GitTables](https://gittables.github.io); a large-scale corpus of tables extracted from CSV files on GitHub, and close with ongoing efforts."
   photo: ""
   biography: "Madelon Hulsebos is a PhD candidate at the INDE Lab of the University of Amsterdam and PhD researcher at Sigma Computing. She is interested in making (relational) data systems intelligent. Prior to starting her PhD, she did research at the MIT Media Lab and worked as a data scientist in industry."
