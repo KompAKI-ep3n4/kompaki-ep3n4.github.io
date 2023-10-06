@@ -1,4 +1,4 @@
-# Website for kompaki-ep3n4
+# Website for KompAKI EP 3 and EP 4
 
 This is the [KompAKI](https://kompaki.de/) EP 3 and EP 4 public web page.
 
@@ -12,7 +12,7 @@ All content is decoupled from the HTML/layout and should be edited in `_config.y
 
 ## Previewing / Running locally
 
-You will need to install Jekyll on your machine first. After that you can clone this repository, checkout the `main` branch, and run the following:
+You will need to install Jekyll on your machine first or laternatively use the [devcontainer](https://containers.dev/) (which is easiest with [VSCode](https://code.visualstudio.com/)). After that you can clone this repository, checkout the `main` branch, and run the following:
 
 ```shell
 jekyll serve --baseurl ""
