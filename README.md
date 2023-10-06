@@ -12,10 +12,10 @@ All content is decoupled from the HTML/layout and should be edited in `_config.y
 
 ## Previewing / Running locally
 
-You will need to install Jekyll on your machine first or laternatively use the [devcontainer](https://containers.dev/) (which is easiest with [VSCode](https://code.visualstudio.com/)). After that you can clone this repository, checkout the `main` branch, and run the following:
+You will need to install Jekyll on your machine first or alternatively use the [devcontainer](https://containers.dev/) (which is easiest with [VSCode](https://code.visualstudio.com/)). After that, you can clone this repository, checkout the `main` branch, and run the following:
 
 ```shell
 jekyll serve --baseurl ""
 ```
 
-Where the `--baseurl` option overwrites the GitHub-specific path, and makes the page preview available (typically) at http://127.0.0.1:4000/
+Where the `--baseurl` option overwrites the GitHub-specific path and makes the page preview available (typically) at http://127.0.0.1:4000/
