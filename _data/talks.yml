@@ -158,6 +158,16 @@
   biography: "Paolo Papotti is an Associate Professor at EURECOM, France since 2017. He got his PhD from Roma Tre University (Italy) in 2007 and had research positions at the Qatar Computing Research Institute (Qatar) and Arizona State University (USA). His research is focused on data management and information quality. He has authored more than 140 publications, and his work has been recognized with two “Best of the Conference” citations (SIGMOD 2009, VLDB 2016), three best demo award (SIGMOD 2015, DBA 2020, SIGMOD 2022), and two Google Faculty Research Award (2016, 2020)."
   video_url: ""
 
+- date: "20.11.2023"
+  title: "Leveraging LLMs for Human Mobility Forecasting"
+  presenter: "Hao Xue"
+  url: https://www.unsw.edu.au/staff/hao-xue
+  affiliation: "University of New South Wales, Sydney"
+  abstract: "The release of ChatGPT and the fast development of GPTs have resulted in a transformative trend in our daily lives: the utilization of prompts has become increasingly popular. In this talk, I will present a new versatile paradigm, leveraging Large Language Models (LLMs) for time-series forecasting. This paradigm opens up exciting possibilities in domains such as traffic forecasting and energy demand forecasting, where the integration of natural language prompts not only demonstrates excellent forecasting performance but also shows the flexibility of predictive models. Further, I will introduce and present our recent vision paper: Artificial General Intelligence for Human Mobility. This paper outlines a visionary approach to harnessing artificial general intelligence to revolutionize the way to develop AI models for human mobility-related tasks. I will also provide insights into the conceptual framework and potential applications of this groundbreaking concept."
+  photo: "Hao_Xue.jpg"
+  biography: "Dr Hao Xue currently holds a Lecturer position at the School of Computer Science and Engineering at University of New South Wales (UNSW Sydney), Australia. He obtained his PhD from The University of Western Australia in 2020. After completing his doctorate, he worked as a Research Fellow at the School of Computing Technologies at RMIT University and UNSW Sydney. He is an Associate Investigator at the UNSW node of the ARC Centre of Excellence for Automated Decision-Making and Society (ADM+S). He was awarded the DAAD AInet Fellowship in 2022 and is a member of the Research Infrastructure Committee (Transport/Mobility Focus Area) at ADM+S. His research interests include spatiotemporal data modelling, time series forecasting, language generation based forecasting, and data-efficient time series representation learning. He has years of experience in developing AI models for analyzing human mobility behaviours and has received fundings for multiple research projects."
+  video_url: ""
+
 # - date: ""
 #   title: ""
 #   presenter: ""
