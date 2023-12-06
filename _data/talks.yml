@@ -106,7 +106,7 @@
   abstract: "In this talk, I will cover the challenges of and solutions for scaling interactive visualization systems to large data. The challenges for scalable visualization systems can be grouped into two areas: visual and interactive scalability. A visual representation that shows every record as its own mark quickly overwhelms our visual system; we call this problem perceptual scalability. For very large data, necessary transformations can overwhelm the data processing system; we call this the problem of interactive scalability. In this talk, I will elaborate on these problems and present solutions that enable interactive analysis of billions of records without any negative impacts of latency.
   <br/>
   The given talk is an extended version of a section of [my job talk recorded at Microsoft Research](https://www.youtube.com/watch?v=ww0HGwC18Qo)."
-  photo: ""
+  photo: "Dominik_Moritz.jpg"
   biography: "Dominik Moritz is on the faculty at Carnegie Mellon University where he co-leads the [Data Interaction Group](https://dig.cmu.edu/) at the Human-Computer Interaction Institute and manages the visualization team in Apple's machine learning organization. At CMU, his group's research develops interactive systems that empower everyone to effectively analyze and communicate data. Dominik's systems (Vega-Lite, Falcon, Draco, Voyager, and others) have won awards at academic venues (e.g. IEEE VIS and CHI), are widely used in industry, and by the Python and JavaScript data science communities. Dominik did his PhD at the Paul G. Allen School at the University of Washington, where he was advised by Jeff Heer and Bill Howe."
   video_url: "https://drive.google.com/file/d/1-QX7LFCCiXRvgGsgCw1CR9SYHFYY2Y1h/view"
 
