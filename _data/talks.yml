@@ -59,7 +59,7 @@
   video_url: "https://drive.google.com/file/d/1d6eK1xvCacQTuEBBx8pmh2c2Exw2EFG9/view"
 
 - date: "07.01.2022"
-  title: "AutoML - Goals, Trends and future research"
+  title: "AutoML - Goals, Trends and Future Research"
   presenter: "Jonas Seng"
   url: https://www.ml.informatik.tu-darmstadt.de/people/jseng/index.html
   affiliation: "Technische Universität Darmstadt"
@@ -79,7 +79,7 @@
   video_url: "https://drive.google.com/file/d/1odFOxhrKTMrIo-_U2fmlCZM04CIX-xU0/view"
 
 - date: "03.06.2022"
-  title: "Towards “Large Table Models” for enterprise data management"
+  title: "Towards “Large Table Models” for Enterprise Data Management"
   presenter: "Madelon Hulsebos"
   url: https://madelonhulsebos.github.io
   affiliation: "INDE Lab of the University of Amsterdam & Sigma Computing"
@@ -99,7 +99,7 @@
   video_url: "https://drive.google.com/file/d/1uTyz3hYumvS7qcn43Tc9bC23CPd19NjZ/view"
 
 - date: "07.10.2022"
-  title: "Scalable data visualization"
+  title: "Scalable Data Visualization"
   presenter: "Dominik Moritz"
   url: https://www.domoritz.de/
   affiliation: "Carnegie Mellon University & Apple"
@@ -121,7 +121,7 @@
   video_url: "https://drive.google.com/file/d/12D13NKvczl9V2A7gD6lMpCTr-wT2XHuA/view"
 
 - date: "26.05.2023"
-  title: "Green AutoML: A paradigm shift towards a more mindful resource consumption"
+  title: "Green AutoML: A Paradigm Shift Towards a More Mindful Resource Consumption"
   presenter: "Tanja Tornede"
   url: https://tornede.github.io/
   affiliation: "Leibniz University Hannover"
@@ -131,7 +131,7 @@
   video_url: ""
 
 - date: "02.06.2023"
-  title: "Efficient hyperparameter optimization through transfer learning and early stopping"
+  title: "Efficient Hyperparameter Optimization Through Transfer Learning and Early Stopping"
   presenter: "Huibin Shen"
   url: https://huibinshen.github.io/
   affiliation: "Amazon"
