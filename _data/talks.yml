@@ -170,6 +170,26 @@
   biography: "Dr Hao Xue currently holds a Lecturer position at the School of Computer Science and Engineering at University of New South Wales (UNSW Sydney), Australia. He obtained his PhD from The University of Western Australia in 2020. After completing his doctorate, he worked as a Research Fellow at the School of Computing Technologies at RMIT University and UNSW Sydney. He is an Associate Investigator at the UNSW node of the ARC Centre of Excellence for Automated Decision-Making and Society (ADM+S). He was awarded the DAAD AInet Fellowship in 2022 and is a member of the Research Infrastructure Committee (Transport/Mobility Focus Area) at ADM+S. His research interests include spatiotemporal data modelling, time series forecasting, language generation based forecasting, and data-efficient time series representation learning. He has years of experience in developing AI models for analyzing human mobility behaviours and has received fundings for multiple research projects."
   video_url: "https://drive.google.com/file/d/1ijjWEk5cyhdI9JVo4v_a2dv4mGJBUr7K/view"
 
+- date: "11.01.2024"
+  title: "CAESURA: Language Models as Multi-Modal Query Planners "
+  presenter: "Matthias Urban"
+  url: https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_110912.en.jsp
+  affiliation: "Technische Universität Darmstadt"
+  abstract: "Traditional query planners translate SQL queries into query plans to be executed over relational data. However, it is impossible to query other data modalities, such as images, text, or video stored in modern data systems such as data lakes using these query planners. In this paper, we propose Language-Model-Driven Query Planning, a new paradigm of query planning that uses Language Models to translate natural language queries into executable query plans. Different from relational query planners, the resulting query plans can contain complex operators that are able to process arbitrary modalities. As part of this paper, we present a first GPT-4 based prototype called CAESURA and show the general feasibility of this idea on two datasets. Finally, we discuss several ideas to improve the query planning capabilities of today’s Language Models."
+  photo: "Matthias_Urban.jpg"
+  biography: "Matthias Urban is a PhD Candidate at the Systems Group at Technical University of Darmstadt. He works at the intersection of Large Language models and Databases"
+  video_url: ""
+
+- date: "08.02.2024"
+  title: "Towards Foundation Models For Relational Databases"
+  presenter: "Liane Vogel"
+  url: https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_113536.en.jsp
+  affiliation: "Technische Universität Darmstadt"
+  abstract: "Data engineering tasks, such as data transformation and data cleaning, currently still require a high amount of manual effort. The field of table representation learning develops methods to automate these tedious tasks. However, existing tabular representation models only learn a representation from individual tables. Despite the fact that most organizations use databases, representation learning for relational databases with multiple tables is still an under-explored area. In this talk, we present our vision of relational representation learning, that not only learns from the full structure of relational databases, but also can scale to larger database sizes that are common in the real world."
+  photo: "Liane_Vogel.jpg"
+  biography: "Liane Vogel is a PhD Candidate at the Data and AI Systems Lab at the Technical University of Darmstadt, with a background in Machine Learning, Natural Language Processing and Computer Science.""
+  video_url: ""
+
 # - date: ""
 #   title: ""
 #   presenter: ""
