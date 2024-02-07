@@ -187,7 +187,7 @@
   affiliation: "Technische Universität Darmstadt"
   abstract: "Data engineering tasks, such as data transformation and data cleaning, currently still require a high amount of manual effort. The field of table representation learning develops methods to automate these tedious tasks. However, existing tabular representation models only learn a representation from individual tables. Despite the fact that most organizations use databases, representation learning for relational databases with multiple tables is still an under-explored area. In this talk, we present our vision of relational representation learning, that not only learns from the full structure of relational databases, but also can scale to larger database sizes that are common in the real world."
   photo: "Liane_Vogel.jpg"
-  biography: "Liane Vogel is a PhD Candidate at the Data and AI Systems Lab at the Technical University of Darmstadt, with a background in Machine Learning, Natural Language Processing and Computer Science.""
+  biography: "Liane Vogel is a PhD Candidate at the Data and AI Systems Lab at the Technical University of Darmstadt, with a background in Machine Learning, Natural Language Processing and Computer Science."
   video_url: ""
 
 # - date: ""
