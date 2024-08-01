@@ -189,6 +189,16 @@
   photo: "Liane_Vogel.jpg"
   biography: "Liane Vogel is a PhD Candidate at the Data and AI Systems Lab at the Technical University of Darmstadt, with a background in Machine Learning, Natural Language Processing and Computer Science."
   video_url: ""
+  
+ - date: "11.04.2024"
+  title: "Democratizing Information Access through Low Overhead Systems"
+  presenter: "Benjamin Hättasch"
+  url: https://www.dfki.de/web/ueber-uns/mitarbeiter/person/beha03
+  affiliation: "DFKI & Technische Universität Darmstadt"
+  abstract: "Everyone is talking about ChatGPT & Co. But every query is time-consuming and expensive. Can it be done more cheaply and locally? Dr. Benjamin Hättasch presents his research on information extraction, summaries and data access with minimal resources -- inexpensive, adaptable for many domains and without transmitting sensitive data to external servers."
+  photo: "Benjamin_Haettasch.jpg"
+  biography: "Dr. Benjamin Hättasch is Research Manager of the DFKI Lab Darmstadt. Before, he obtained his PhD at the Systems Group at TU Darmstadt. His research interest are in the intersection of information retrieval, natural language processing, interactive systems and structured data."
+  video_url: "https://hub.tuda.systems/s/L8YM5Zwqg57orzY"
 
 # - date: ""
 #   title: ""
