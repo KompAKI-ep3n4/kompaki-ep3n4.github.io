@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="jumbotron jumbotron-fluid bg-dark banner">
-  
+
   <div class="jumbotron-background">
     <img src="{{ site.baseurl }}/assets/scott-graham-5fNmWej4tAA-unsplash-cropped.jpg" class="blur" />
   </div>
@@ -19,115 +19,120 @@ layout: default
 
 <div class="container-md">
 
-<div class="row">
+  <div class="row">
 
-<div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 
-<!-- Information -->
-<div class="jumbotron information text-justified">
-  <div style="text-align: center; font-style: italic; margin-bottom: 3ex;">
-    Part of the Workplace AI for the Rhine-Main Metropolitan Region project
-    <a href="https://www.tu-darmstadt.de/kompaki/"><!-- https://www.kompaki.de was phased out -->
-      <img src="{{ site.baseurl }}/assets/kompaki-logo-rgb.svg" style="width: 45%; margin-top: 1ex;" />
-    </a>
-  </div>
+      <!-- Information -->
+      <div class="jumbotron information text-justified">
+        <div style="text-align: center; font-style: italic; margin-bottom: 3ex;">
+          Part of the Workplace AI for the Rhine-Main Metropolitan Region project
+          <a href="https://www.tu-darmstadt.de/kompaki/"><!-- https://www.kompaki.de was phased out -->
+            <img src="{{ site.baseurl }}/assets/kompaki-logo-rgb.svg" style="width: 45%; margin-top: 1ex;" />
+          </a>
+        </div>
 
-  {{ site.information | markdownify }}
-</div>
+        {{ site.information | markdownify }}
+      </div>
 
-<div class="posts-list" id="talk-list">
+      <div class="posts-list" id="talk-list">
 
-<!-- List talks -->
+        <!-- List talks -->
 
-{% for talk in site.data.talks %}
+        {% for talk in site.data.talks %}
 
-  <article class="post-preview" datetime="{{ talk.date | date: "%s" }}">
-    <h3 class="post-title">
-      {{ talk.title }}
-    </h3>
-    <h4 class="post-subtitle"><a href="{{talk.url}}" target="_blank" class="link-primary">{{ talk.presenter }}</a> ({{ talk.affiliation }})</h4>
-    <p>    
-      {% if talk.video_url != "" %}
-        <a href="{{ talk.video_url }}" class="btn btn-sm btn-primary active align-middle"><i class="fa fa-play" aria-hidden="true"></i> Watch recording</a>
-      {% else %}
-      <span class="align-middle">
-        No recording available (yet).
-      </span>
-      {% endif %}
-      <span class="post-meta align-middle">
-        Presented on {{ talk.date }}.
-      </span>
-    </p>
-    <div class="post-entry text-justified">
-      <p><strong>Abstract: </strong>{{ talk.abstract | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-    </div>
-    <div class="row align-items-center post-bio">
-      <div class="col-2 text-center">
-        {% if talk.photo != "" %}
-          <img src="{{ site.baseurl }}/assets/speakers/{{ talk.photo }}" class="img-circle avatar img-fluid" alt="Image of {{ talk.presenter }}">
-        {% else %}
-          <div class="avatar" style="background: #ddd;">
-            <i class="fa fa-user" style="font-size: 100px; color: #eee;"></i>
+        <article class="post-preview" datetime="{{ talk.date | date: " %s" }}">
+          <h3 class="post-title">
+            {{ talk.title }}
+          </h3>
+          <h4 class="post-subtitle"><a href="{{talk.url}}" target="_blank" class="link-primary">{{ talk.presenter }}</a>
+            ({{ talk.affiliation }})</h4>
+          <p>
+            {% if talk.video_url != "" %}
+            <a href="{{ talk.video_url }}" class="btn btn-sm btn-primary active align-middle"><i class="fa fa-play"
+                aria-hidden="true"></i> Watch recording</a>
+            {% else %}
+            <span class="align-middle">
+              No recording available (yet).
+            </span>
+            {% endif %}
+            <span class="post-meta align-middle">
+              Presented on {{ talk.date }}.
+            </span>
+          </p>
+          <div class="post-entry text-justified">
+            <p><strong>Abstract: </strong>{{ talk.abstract | markdownify | remove: '
+            <p>' | remove: '</p>' }}</p>
           </div>
-        {% endif %}
+          <div class="row align-items-center post-bio">
+            <div class="col-2 text-center">
+              {% if talk.photo != "" %}
+              <img src="{{ site.baseurl }}/assets/speakers/{{ talk.photo }}" class="img-circle avatar img-fluid"
+                alt="Image of {{ talk.presenter }}">
+              {% else %}
+              <div class="avatar" style="background: #ddd;">
+                <i class="fa fa-user" style="font-size: 100px; color: #eee;"></i>
+              </div>
+              {% endif %}
+            </div>
+            <div class="col-1"></div>
+            <div class="col-9 text-muted text-justified">
+              <p><strong>About the presenter: </strong>{{ talk.biography | markdownify | remove: '
+              <p>' | remove: '</p>' }}</p>
+            </div>
+          </div>
+        </article>
+
+        {% endfor %}
+
       </div>
-      <div class="col-1"></div>
-      <div class="col-9 text-muted text-justified">
-        <p><strong>About the presenter: </strong>{{ talk.biography | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+
+      <div class="posts-list" id="past-talks">
       </div>
+
     </div>
-  </article>
 
-{% endfor %}
-
-</div>
-
-<div class="posts-list" id="past-talks">
-</div>
-
-</div>
-
-</div>
+  </div>
 
 </div>
 
 <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.slim.min.js"></script>
 
 <script>
-  $(document).ready(function() {
+  $(document).ready(function () {
 
     // Move talk to Past talks one hour after the scheduled time
-    var currentTime = Math.floor(Date.now() / 1000)+2*3600;
+    var currentTime = Math.floor(Date.now() / 1000) + 2 * 3600;
 
-    console.log('Current unix time: '+currentTime);
+    console.log('Current unix time: ' + currentTime);
 
     // Make sure the talk list is sorted (next talk first)
     $("#talk-list article")
-        .sort((a, b) => $(a).attr("datetime") - $(b).attr("datetime"))
-        .appendTo("#talk-list");
+      .sort((a, b) => $(a).attr("datetime") - $(b).attr("datetime"))
+      .appendTo("#talk-list");
 
-        // Add the "Upcoming talks" header only if there are upcoming talks
-    var upcomingTalks = $("#talk-list article").filter(function() {
-        return parseInt($(this).attr("datetime")) > currentTime;
+    // Add the "Upcoming talks" header only if there are upcoming talks
+    var upcomingTalks = $("#talk-list article").filter(function () {
+      return parseInt($(this).attr("datetime")) > currentTime;
     });
     if (upcomingTalks.length > 0) {
-        $("#talk-list").prepend("<h2>Upcoming talks</h2>");
+      $("#talk-list").prepend("<h2>Upcoming talks</h2>");
     }
 
     // Add label if there are past talks
     if (parseInt($("#talk-list article").first().attr("datetime")) < currentTime) {
-        $("#past-talks").prepend("<br /><hr><br /><h2>Past talks</h2>");
+      $("#past-talks").prepend("<br /><hr><br /><h2>Past talks</h2>");
     }
 
     // Move past talks to Past Talks list
-    $("#talk-list article").filter(function() {
-        return parseInt($(this).attr("datetime")) < currentTime;
+    $("#talk-list article").filter(function () {
+      return parseInt($(this).attr("datetime")) < currentTime;
     }).appendTo("#past-talks");
 
     // Sort past talks by reverse time (most recent first)
     $("#past-talks article")
-    .sort((a,b) => $(b).attr("datetime") - $(a).attr("datetime"))
-    .appendTo("#past-talks");
+      .sort((a, b) => $(b).attr("datetime") - $(a).attr("datetime"))
+      .appendTo("#past-talks");
 
   });
 </script>
