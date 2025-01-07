@@ -11,8 +11,8 @@ layout: default
   <div class="container text-white">
     <div class="page-heading">
       <h1>{{ site.title }}</h1>
-      <hr class="small">
-      <span class="page-subheading">{{ site.description | markdownify }}</span>
+      <hr class="small" />
+      <span class="page-subheading">{{ site.organizers | markdownify }}</span>
     </div>
   </div>
 </div>
@@ -24,14 +24,15 @@ layout: default
 <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
 
 <!-- Information -->
+<div class="jumbotron information text-justified">
+  <div style="text-align: center; font-style: italic; margin-bottom: 3ex;">
+    Part of the Workplace AI for the Rhine-Main Metropolitan Region project
+    <a href="https://www.tu-darmstadt.de/kompaki/"><!-- https://www.kompaki.de was phased out -->
+      <img src="{{ site.baseurl }}/assets/kompaki-logo-rgb.svg" style="width: 45%; margin-top: 1ex;" />
+    </a>
+  </div>
 
-<div style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/kompaki-logo-rgb.svg" style="width:45%; margin-top: 1.5em;" />
-</div>
-
-<div class="jumbotron information">
   {{ site.information | markdownify }}
-  <!-- <div id="hosted-by">Seminar organizers: {{ site.organizers | markdownify | remove: '<p>' | remove: '</p>' }}</div> -->
 </div>
 
 <div class="posts-list" id="talk-list">

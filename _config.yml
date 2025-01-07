@@ -11,13 +11,13 @@ include:
 exclude:
   - .sass-cache
 
-title: "KompAKI EP 3 & 4 Seminar"
-description: "Part of the *KompAKI project* — Workplace AI for the Rhine-Main Metropolitan Region"
+title: "KompAKI EP3 & 4 Seminar — Automated and Interactive AI"
+
+# Chronological order:
+organizers: "Organized by Prof. Carsten Binnig, Nadja Geisler, Fabrizio Ventola, Zhongjie Yu, and Felix Divo."
 
 information: >
-  We connect researchers and practitioners to present original research and provide an overview of established methods. To the benefit of all, we invite both regional and international speakers to join us. To learn more about the project, please visit [kompaki.de](https://kompaki.de).
+  We connect researchers and practitioners to present original research and provide an overview of established methods. To the benefit of all, we invite both regional and international speakers to join us. To learn more about the project, please visit [www.tu-darmstadt.de/kompaki](https://www.tu-darmstadt.de/kompaki).
 
 
   The presentations plus discussions are typically 20-60 minutes long and are recorded. Below, you will find an overview of the talks and links to recordings, where available.
-
-organizers: "Seminar organizers"
