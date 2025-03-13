@@ -206,7 +206,7 @@
   url: https://hpi.de/rabl/team/prof-dr-tilmann-rabl.html
   affiliation: "University of Potsdam & Hasso Plattner Institute"
   abstract: "For the longest time, acquiring new hardware resulted in significant software efficiency gains due to exponential improvements of hardware capabilities. Physical limits in hardware manufacturing have brought former niche designs into standard components, such as multiple cores and specialized circuits. Even with these new designs, hardware improvements are diminishing, while software and applications are still becoming increasingly complex and resource-demanding. In this talk, we will present our research efforts in increasing data system efficiency. Incorporating estimations on hardware and power production carbon intensity, we will estimate ecological hardware replacement frequencies and review implications on data system development."
-  photo: ""
+  photo: "Tilmann_Rabl.jpg"
   biography: "Tilmann Rabl is a professor of Data Engineering Systems at the Digital Engineering Faculty of the University of Potsdam and the Hasso Plattner Institute. Tilmann received his doctoral degree at the University of Passau. Afterward, he was a postdoctoral researcher at the University of Toronto and the Technical University of Berlin. His current research focuses on the efficiency of database and ML systems, real-time analytics, hardware efficient data processing, and benchmarking."
   video_url: ""
 
