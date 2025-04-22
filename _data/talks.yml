@@ -210,6 +210,16 @@
   biography: "Tilmann Rabl is a professor of Data Engineering Systems at the Digital Engineering Faculty of the University of Potsdam and the Hasso Plattner Institute. Tilmann received his doctoral degree at the University of Passau. Afterward, he was a postdoctoral researcher at the University of Toronto and the Technical University of Berlin. His current research focuses on the efficiency of database and ML systems, real-time analytics, hardware efficient data processing, and benchmarking."
   video_url: ""
 
+- date: "14.04.2025"
+  title: "Efficient Parallel Programming with Modern OLTP Techniques"
+  presenter: "Tianzheng Wang"
+  url: https://www.cs.sfu.ca/~tzwang/
+  affiliation: "Simon Fraser University"
+  abstract: "Concurrent and persistent data structure are notoriously hard to build, debug and maintain by relying on very low-level primitives (e.g., atomic instructions). This has forced software systems developers (e.g., DBMS engineers) to become experts in neighbouring areas such as parallel programming, storage and networking, lowering programming efficiency. Meanwhile, OLTP techniques have recently made much progress to the point that they are arguably delivering performance that exceeds the need for actual OLTP workloads. In this talk, we make the case that such OLTP techniques are a great fit for easing parallel programming while preserving high performance. The key is to model data structures as relational tables - an idea that did not fly 30 years ago but now has become feasible - so that developers only need to write single-threaded logic wrapped transactions. The transactions are then performed by Tabular, our new high-performance embedded OLTP engine that adapts recent OLTP techniques for parallel programming. We will discuss the key designs of Tabular, insights gained in this process and a few future directions."
+  photo: ""
+  biography: "Tianzheng Wang is an associate professor in the School of Computing Science at Simon Fraser University in Metro Vancouver, Canada. His research centres around the making of database systems in the context of modern hardware, new programming primitives, and new applications. His work also often extends to related areas such as operating systems, parallel programming and distributed systems. Tianzheng Wang received his Ph.D. (2017) and M.Sc. (2014) degrees in Computer Science from the University of Toronto, and B.Sc. (2012) in Computing degree (First Class Honours) from Hong Kong Polytechnic University. His work has been assimilated by cloud vendors and startups, and recognized by two ACM SIGMOD Research Highlight Awards (2021 and 2023), a 2019 IEEE TCSC Award for Excellence in Scalable Computing (Early Career Researchers) and nominations for best paper awards."
+  video_url: ""
+
 # - date: ""
 #   title: ""
 #   presenter: ""
