@@ -1,3 +1,5 @@
+![KompAKI logo](assets/kompaki-logo-rgb.svg)
+
 # Website for KompAKI EP 3 and EP 4
 
 This is the [KompAKI](https://kompaki.de/) EP 3 and EP 4 public web page.
@@ -18,4 +20,14 @@ You will need to install Jekyll on your machine first or alternatively use the [
 jekyll serve --baseurl ""
 ```
 
-Where the `--baseurl` option overwrites the GitHub-specific path and makes the page preview available (typically) at http://127.0.0.1:4000/
+Where the `--baseurl` option overwrites the GitHub-specific path and makes the page preview available at (usually) [http://127.0.0.1:4000](http://127.0.0.1:4000).
+
+## Acknowledgements
+
+This research and development project was partially funded by the German Federal Ministry of Research, Technology and Space (BMFTR) within the “The Future of Value Creation – Research on Production, Services and Work” program (funding number 02L19C150). The respective authors are responsible for the content.
+
+![BMFTR funding banner](assets/BMFTR_en_gef_durch.svg)
+
+## License
+
+See [LICENSE](LICENSE) for details.
